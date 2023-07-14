@@ -1,0 +1,20 @@
+.song-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.current-song-img {
+  width: 25%;
+  border-radius: 50%;
+}
+
+.current-song-name {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.current-song-artist {
+  font-size: 20px;
+}

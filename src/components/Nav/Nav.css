@@ -1,0 +1,21 @@
+.nav-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.open-btn-lbr {
+  color: black;
+  background-color: white;
+}
+
+.closed-btn-lbr {
+  color: white;
+  background-color: black;
+  border: 0;
+}
+
+.btn-lbr {
+  padding: 10px 15px;
+  border-radius: 10px;
+}

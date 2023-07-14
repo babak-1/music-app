@@ -1,0 +1,34 @@
+.library-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.library-cover-image {
+  width: 25%;
+  height: 25%;
+}
+
+.library-song {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.library-song:hover {
+  background-color: yellow;
+}
+
+.active-music {
+  background-color: aqua;
+}
+
+.library {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.opened-library {
+  transform: translateX(0%);
+  opacity: 1;
+}
